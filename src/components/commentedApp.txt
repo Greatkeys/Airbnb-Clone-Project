@@ -1,0 +1,116 @@
+// import card2 from "./card2.jpg"
+// import card3 from "./card3.jpg"
+// import card4 from "./card4.jpg"
+
+// import JokeElements from "./components/JokesData"
+// import Jokes from "./components/Jokes";
+// const jokes = JokeElements.map(joke =>{
+//   return <Jokes 
+//   key = {joke.id}
+//   setup={joke.setup}
+//   punchline={joke.punchline}
+//   desc = {joke.desc}
+//   />
+// })
+// const colors = [
+// <h3>red</h3>,
+// <h3>orange</h3>,
+// <h3>yellow</h3>, 
+// <h3>green</h3>, 
+// <h3>blue</h3>,
+// <h3>violet</h3> 
+// ]  
+// <Contacts
+//       img={cat1}
+//       name= "Mr Whiskerson"
+//       phone = "0813452347"
+//       email= "greatkeys2@gmail.com" 
+//       />
+//       <Contacts 
+//       img={cat2}
+//       name= "Mr Ojo"
+//       phone = "0813452347"
+//       email= "greatkeys3@gmail.com"
+//       />
+//       <Contacts 
+//       img={cat3}
+//       name= "Mr Ko"
+//       phone = "0813452347"
+//       email= "greatkeys6@gmail.com"
+//       />
+//       <Contacts 
+//       img={cat4}
+//       name= "Mr Saint"
+//       phone = "0813452347"
+//       email= "greatkeys8@gmail.com"
+//       />
+      
+// destructuring
+// const activation = {
+//   img: "./cat1.jpg",
+//   name: "Mr Saint",
+//   phone: "0813452347",
+//   email: "greatkeys8@gmail.com"
+// }
+// const {img, name, phone, email} = activation;
+// console.log(email)
+
+// Extra datas
+      // <div className="contact-card">
+//         <img src={cat2} alt="first-cat" />
+//         <h3>Mr Ojo</h3>
+//         <div className="info">
+//           <div className="first-info">
+//             <i className="fas fa-phone"></i>
+//             <p>08108023439</p>
+//           </div>
+//           <div className="first-info">
+//             <i className="fas fa-envelope"></i>
+//             <p>08108023439</p>
+//           </div>
+//         </div>s
+//       </div>
+//       <div className="contact-card">
+//         <img src={cat3} alt="first-cat" />
+//         <h3>Mr Ko</h3>
+//         <div className="info">
+//           <div className="first-info">
+//             <i className="fas fa-phone"></i>
+//             <p>08108023439</p>
+//           </div>
+//           <div className="first-info">
+//             <i className="fas fa-envelope"></i>
+//             <p>08108023439</p>
+//           </div>
+//         </div>
+//       </div>
+//       <div className="contact-card">
+//         <img src={cat4} alt="first-cat" />
+//         <h3>Mr Saint</h3>
+//         <div className="info">
+//           <div className="first-info">
+//             <i className="fas fa-phone"></i>
+//             <p>08108023439</p>
+//           </div>
+//           <div className="first-info">
+//             <i className="fas fa-envelope"></i>
+//             <p>08108023439</p>
+//           </div>
+//         </div>
+//       </div>
+
+
+  // const firstname = "John";
+  // const lastname = "Doe";
+  // const date = new Date().getHours();
+  // let timeOfDay;
+  // if(date < 12){
+  //   timeOfDay = "morning"
+  // }else if(date >= 12 && date < 17){
+  //   timeOfDay = "afternoon"
+  // }else{
+  //   timeOfDay = "evening";
+  // }
+  // return (
+  //   <h1>Good {timeOfDay}</h1>
+  // );

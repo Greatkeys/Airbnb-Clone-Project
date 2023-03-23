@@ -1,0 +1,8 @@
+1. What does the .map() array method do?
+it returns another array with the given return specifications
+
+2.  What do we usually use `.map` for in React?
+it is mainly used in  react to populate our page dynamically especially when the data to be populated are of simiar order
+
+3.  Why is using `.map()` better than just creating the components manually by typing them out?
+Using map is more better because it creates each item dynamically. in such a manner if another item is added to the data base it can automatically be added to the page
